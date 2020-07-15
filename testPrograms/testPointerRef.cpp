@@ -16,7 +16,18 @@ int main()
 
 
 	std::string* pTemp = (ptrString(&inventory, 1));
-	std::cout << *pTemp;
+	std::cout << "\nThe value of string through pointer of pointer is :\n";
+	std::cout << *pTemp << std::endl;
+
+	std::cout << "Adding a new item to the inventory\n";
+	*pTemp = "Mentos";
+	std::cout << "The items are:\n";
+
+	for (std::vector<std::string>::iterator i = inventory.begin(); i != inventory.end(); ++i)
+	{
+		std::cout << *i << std::endl;
+	}
+
 }
 
 std::string* ptrString(std::vector<std::string>* inveT, int i)
