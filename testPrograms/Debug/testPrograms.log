@@ -1,2 +1,6 @@
-﻿  abstractClasses.cpp
-  testPrograms.vcxproj -> C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\Debug\testPrograms.exe
+﻿  abstractClassTest.cpp
+C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\testPrograms\abstractClassTest.cpp(47,11): error C2259: 'Creature': cannot instantiate abstract class
+C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\testPrograms\abstractClassTest.cpp(3): message : see declaration of 'Creature'
+C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\testPrograms\abstractClassTest.cpp(47,11): message : due to following members:
+C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\testPrograms\abstractClassTest.cpp(47,11): message : 'void Creature::greet(void)': is abstract
+C:\Users\Mentice\Documents\Visual Studio 2019\Projects\testPrograms\testPrograms\abstractClassTest.cpp(7): message : see declaration of 'Creature::greet'
